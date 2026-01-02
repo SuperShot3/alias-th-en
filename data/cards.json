@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "pairs": [
+      { "thai": "สวัสดี", "english": "Hello" },
+      { "thai": "ขอบคุณ", "english": "Thank you" },
+      { "thai": "ลาก่อน", "english": "Goodbye" },
+      { "thai": "ใช่", "english": "Yes" },
+      { "thai": "ไม่", "english": "No" },
+      { "thai": "น้ำ", "english": "Water" },
+      { "thai": "อาหาร", "english": "Food" },
+      { "thai": "บ้าน", "english": "House" }
+    ]
+  },
+  {
+    "id": 2,
+    "pairs": [
+      { "thai": "สวย", "english": "Beautiful" },
+      { "thai": "ใหญ่", "english": "Big" },
+      { "thai": "เล็ก", "english": "Small" },
+      { "thai": "ร้อน", "english": "Hot" },
+      { "thai": "เย็น", "english": "Cold" },
+      { "thai": "เร็ว", "english": "Fast" },
+      { "thai": "ช้า", "english": "Slow" },
+      { "thai": "ดี", "english": "Good" }
+    ]
+  },
+  {
+    "id": 3,
+    "pairs": [
+      { "thai": "หนึ่ง", "english": "One" },
+      { "thai": "สอง", "english": "Two" },
+      { "thai": "สาม", "english": "Three" },
+      { "thai": "สี่", "english": "Four" },
+      { "thai": "ห้า", "english": "Five" },
+      { "thai": "หก", "english": "Six" },
+      { "thai": "เจ็ด", "english": "Seven" },
+      { "thai": "แปด", "english": "Eight" }
+    ]
+  }
+]
+

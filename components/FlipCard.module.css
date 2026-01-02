@@ -1,0 +1,118 @@
+.cardContainer {
+  width: 100%;
+  max-width: 500px;
+  height: 70vh;
+  max-height: 600px;
+  min-height: 400px;
+  perspective: 1000px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.cardContainer.flipped .card {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.cardId {
+  font-size: 18px;
+  font-weight: 700;
+  color: #667eea;
+  background: #f0f4ff;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.languageLabel {
+  font-size: 16px;
+  font-weight: 600;
+  color: #764ba2;
+  background: #f8f4ff;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.wordGrid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.wordItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  padding: 20px 10px;
+  text-align: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.wordItem:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 480px) {
+  .wordItem {
+    font-size: 20px;
+    padding: 15px 8px;
+  }
+  
+  .cardId,
+  .languageLabel {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+}
+
+@media (max-height: 700px) {
+  .wordItem {
+    font-size: 18px;
+    padding: 12px 6px;
+  }
+}
+

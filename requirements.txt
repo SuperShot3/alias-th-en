@@ -1,0 +1,7 @@
+# Alias Game - Python Dependencies
+# This project uses only Python standard library, no external dependencies required
+
+# If you want to add features later, you might consider:
+# - colorama (for colored terminal output)
+# - pyfiglet (for ASCII art text)
+
