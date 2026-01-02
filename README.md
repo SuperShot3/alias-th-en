@@ -1,5 +1,15 @@
 # Alias Thai ⇄ English
 
+TODO!!!
+
+Collor palet 
+launch on vercel for test version on phone 
+choose new font 
+Create a words library.
+
+
+
+
 A mobile-only web application for learning Thai and English word pairs through an interactive card game.
 
 ## Description
