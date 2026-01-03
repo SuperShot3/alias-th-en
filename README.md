@@ -2,10 +2,7 @@
 
 TODO!!!
 
-Collor palet 
-launch on vercel for test version on phone 
-choose new font 
-Create a words library.
+
 
 
 

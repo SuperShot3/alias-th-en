@@ -1,43 +1,497 @@
 [
   {
     "id": 1,
+    "theme_id": 1,
+    "theme": "Движение и ориентирование",
     "pairs": [
-      { "thai": "สวัสดี", "english": "Hello" },
-      { "thai": "ขอบคุณ", "english": "Thank you" },
-      { "thai": "ลาก่อน", "english": "Goodbye" },
-      { "thai": "ใช่", "english": "Yes" },
-      { "thai": "ไม่", "english": "No" },
-      { "thai": "น้ำ", "english": "Water" },
-      { "thai": "อาหาร", "english": "Food" },
-      { "thai": "บ้าน", "english": "House" }
+      { "thai": "เลี้ยวซ้าย", "english": "turn left" },
+      { "thai": "เลี้ยวขวา", "english": "turn right" },
+      { "thai": "ตรงไป", "english": "go straight" },
+      { "thai": "ผ่าน", "english": "pass" },
+      { "thai": "ข้าม", "english": "cross" },
+      { "thai": "ผ่านไป", "english": "go past" },
+      { "thai": "ตาม", "english": "follow" },
+      { "thai": "หยุด", "english": "stop" }
     ]
   },
   {
     "id": 2,
+    "theme_id": 1,
+    "theme": "Движение и ориентирование",
     "pairs": [
-      { "thai": "สวย", "english": "Beautiful" },
-      { "thai": "ใหญ่", "english": "Big" },
-      { "thai": "เล็ก", "english": "Small" },
-      { "thai": "ร้อน", "english": "Hot" },
-      { "thai": "เย็น", "english": "Cold" },
-      { "thai": "เร็ว", "english": "Fast" },
-      { "thai": "ช้า", "english": "Slow" },
-      { "thai": "ดี", "english": "Good" }
+      { "thai": "แยก", "english": "intersection" },
+      { "thai": "ไฟจราจร", "english": "traffic light" },
+      { "thai": "ทางเท้า", "english": "sidewalk" },
+      { "thai": "ทางม้าลาย", "english": "pedestrian crossing" },
+      { "thai": "ซอย", "english": "alley / lane" },
+      { "thai": "สะพาน", "english": "bridge" },
+      { "thai": "กลับรถ", "english": "u-turn" },
+      { "thai": "วงเวียน", "english": "roundabout" }
     ]
   },
   {
     "id": 3,
+    "theme_id": 2,
+    "theme": "Еда и ресторан",
     "pairs": [
-      { "thai": "หนึ่ง", "english": "One" },
-      { "thai": "สอง", "english": "Two" },
-      { "thai": "สาม", "english": "Three" },
-      { "thai": "สี่", "english": "Four" },
-      { "thai": "ห้า", "english": "Five" },
-      { "thai": "หก", "english": "Six" },
-      { "thai": "เจ็ด", "english": "Seven" },
-      { "thai": "แปด", "english": "Eight" }
+      { "thai": "อาหาร", "english": "food" },
+      { "thai": "กิน", "english": "to eat" },
+      { "thai": "ดื่ม", "english": "to drink" },
+      { "thai": "หิว", "english": "hungry" },
+      { "thai": "กระหาย", "english": "thirsty" },
+      { "thai": "อร่อย", "english": "delicious" },
+      { "thai": "เผ็ด", "english": "spicy" },
+      { "thai": "ไม่เผ็ด", "english": "not spicy" }
+    ]
+  },
+  {
+    "id": 4,
+    "theme_id": 2,
+    "theme": "Еда и ресторан",
+    "pairs": [
+      { "thai": "หวาน", "english": "sweet" },
+      { "thai": "เค็ม", "english": "salty" },
+      { "thai": "เปรี้ยว", "english": "sour" },
+      { "thai": "ขม", "english": "bitter" },
+      { "thai": "ร้อน", "english": "hot (food)" },
+      { "thai": "เย็น", "english": "cold (food/drink)" },
+      { "thai": "สั่ง", "english": "to order" },
+      { "thai": "เอา...", "english": "I want... (take...)" }
+    ]
+  },
+  {
+    "id": 5,
+    "theme_id": 2,
+    "theme": "Еда и ресторан",
+    "pairs": [
+      { "thai": "ไม่ใส่", "english": "not put / no" },
+      { "thai": "เพิ่ม", "english": "more" },
+      { "thai": "ลด", "english": "less" },
+      { "thai": "ข้าว", "english": "rice" },
+      { "thai": "ก๋วยเตี๋ยว", "english": "noodles" },
+      { "thai": "ซุป", "english": "soup" },
+      { "thai": "แกง", "english": "curry" },
+      { "thai": "ยำ", "english": "Thai salad" }
+    ]
+  },
+  {
+    "id": 6,
+    "theme_id": 2,
+    "theme": "Еда и ресторан",
+    "pairs": [
+      { "thai": "ทอด", "english": "fried" },
+      { "thai": "ย่าง", "english": "grilled" },
+      { "thai": "ต้ม", "english": "boiled" },
+      { "thai": "นึ่ง", "english": "steamed" },
+      { "thai": "หมู", "english": "pork" },
+      { "thai": "ไก่", "english": "chicken" },
+      { "thai": "เนื้อ", "english": "beef" },
+      { "thai": "ปลา", "english": "fish" }
+    ]
+  },
+  {
+    "id": 7,
+    "theme_id": 2,
+    "theme": "Еда и ресторан",
+    "pairs": [
+      { "thai": "กุ้ง", "english": "shrimp" },
+      { "thai": "ผัก", "english": "vegetables" },
+      { "thai": "ผลไม้", "english": "fruit" },
+      { "thai": "น้ำ", "english": "water" },
+      { "thai": "น้ำแข็ง", "english": "ice" },
+      { "thai": "ช้อน", "english": "spoon" },
+      { "thai": "ส้อม", "english": "fork" },
+      { "thai": "ตะเกียบ", "english": "chopsticks" }
+    ]
+  },
+  {
+    "id": 8,
+    "theme_id": 3,
+    "theme": "Дом и быт",
+    "pairs": [
+      { "thai": "ห้องครัว", "english": "kitchen" },
+      { "thai": "ห้องนอน", "english": "bedroom" },
+      { "thai": "ห้องน้ำ", "english": "bathroom" },
+      { "thai": "ห้องรับแขก", "english": "living room" },
+      { "thai": "ตู้เย็น", "english": "fridge" },
+      { "thai": "เตา", "english": "stove" },
+      { "thai": "อ่างล้างจาน", "english": "sink" },
+      { "thai": "เครื่องซักผ้า", "english": "washing machine" }
+    ]
+  },
+  {
+    "id": 9,
+    "theme_id": 3,
+    "theme": "Дом и быт",
+    "pairs": [
+      { "thai": "ซักผ้า", "english": "to wash clothes" },
+      { "thai": "ถูพื้น", "english": "to mop" },
+      { "thai": "ดูดฝุ่น", "english": "to vacuum" },
+      { "thai": "เก็บของ", "english": "to tidy up" },
+      { "thai": "ซ่อม", "english": "to repair" },
+      { "thai": "พัง", "english": "broken" },
+      { "thai": "กุญแจ", "english": "key" },
+      { "thai": "เต้าเสียบ", "english": "power outlet" }
+    ]
+  },
+  {
+    "id": 10,
+    "theme_id": 4,
+    "theme": "Люди и отношения",
+    "pairs": [
+      { "thai": "เพื่อน", "english": "friend" },
+      { "thai": "เพื่อนร่วมงาน", "english": "colleague" },
+      { "thai": "เจ้านาย", "english": "boss" },
+      { "thai": "เพื่อนบ้าน", "english": "neighbor" },
+      { "thai": "คู่รัก", "english": "couple" },
+      { "thai": "คนแปลกหน้า", "english": "stranger" },
+      { "thai": "สุภาพ", "english": "polite" },
+      { "thai": "หยาบคาย", "english": "rude" }
+    ]
+  },
+  {
+    "id": 11,
+    "theme_id": 4,
+    "theme": "Люди и отношения",
+    "pairs": [
+      { "thai": "ขี้อาย", "english": "shy" },
+      { "thai": "มั่นใจ", "english": "confident" },
+      { "thai": "หึง", "english": "jealous" },
+      { "thai": "ไว้ใจ", "english": "trust (someone)" },
+      { "thai": "ทะเลาะ", "english": "argue" },
+      { "thai": "ขอโทษ", "english": "apologize" },
+      { "thai": "ชม", "english": "compliment" },
+      { "thai": "นินทา", "english": "gossip" }
+    ]
+  },
+  {
+    "id": 12,
+    "theme_id": 5,
+    "theme": "Тело и здоровье",
+    "pairs": [
+      { "thai": "ปวดหัว", "english": "headache" },
+      { "thai": "ไข้", "english": "fever" },
+      { "thai": "ไอ", "english": "cough" },
+      { "thai": "เจ็บคอ", "english": "sore throat" },
+      { "thai": "ปวดท้อง", "english": "stomachache" },
+      { "thai": "ท้องเสีย", "english": "diarrhea" },
+      { "thai": "เวียนหัว", "english": "dizzy" },
+      { "thai": "คลื่นไส้", "english": "nausea" }
+    ]
+  },
+  {
+    "id": 13,
+    "theme_id": 5,
+    "theme": "Тело и здоровье",
+    "pairs": [
+      { "thai": "แพ้", "english": "allergy" },
+      { "thai": "ยา", "english": "medicine" },
+      { "thai": "ร้านยา", "english": "pharmacy" },
+      { "thai": "หมอ", "english": "doctor" },
+      { "thai": "นัด", "english": "appointment" },
+      { "thai": "ผ้าพันแผล", "english": "bandage" },
+      { "thai": "ฉีด", "english": "injection" },
+      { "thai": "ความดัน", "english": "blood pressure" }
+    ]
+  },
+  {
+    "id": 14,
+    "theme_id": 6,
+    "theme": "Покупки и рынок",
+    "pairs": [
+      { "thai": "ราคา", "english": "price" },
+      { "thai": "ลดราคา", "english": "discount" },
+      { "thai": "เงินทอน", "english": "change (money)" },
+      { "thai": "ใบเสร็จ", "english": "receipt" },
+      { "thai": "เงินสด", "english": "cash" },
+      { "thai": "บัตร", "english": "card" },
+      { "thai": "ไซส์", "english": "size" },
+      { "thai": "ห้องลอง", "english": "fitting room" }
+    ]
+  },
+  {
+    "id": 15,
+    "theme_id": 6,
+    "theme": "Покупки и рынок",
+    "pairs": [
+      { "thai": "ต่อราคา", "english": "bargain" },
+      { "thai": "แพง", "english": "expensive" },
+      { "thai": "ถูก", "english": "cheap" },
+      { "thai": "สด", "english": "fresh" },
+      { "thai": "ของหมด", "english": "out of stock" },
+      { "thai": "ต่อแถว", "english": "queue" },
+      { "thai": "กิโล", "english": "kilo" },
+      { "thai": "ชั่ง", "english": "weigh" }
+    ]
+  },
+  {
+    "id": 16,
+    "theme_id": 7,
+    "theme": "Путешествия и отель",
+    "pairs": [
+      { "thai": "ว่าง", "english": "available / vacancy" },
+      { "thai": "เต็ม", "english": "full / no vacancy" },
+      { "thai": "ต่อเวลา", "english": "extend (stay)" },
+      { "thai": "ปลุก", "english": "wake-up call" },
+      { "thai": "เครื่องทำน้ำอุ่น", "english": "water heater" },
+      { "thai": "ห้องพัก", "english": "room" },
+      { "thai": "กุญแจ", "english": "key" },
+      { "thai": "เงินมัดจำ", "english": "deposit" }
+    ]
+  },
+  {
+    "id": 17,
+    "theme_id": 7,
+    "theme": "Путешествия и отель",
+    "pairs": [
+      { "thai": "ชำระเงิน", "english": "pay / settle bill" },
+      { "thai": "ใบเสร็จ", "english": "receipt" },
+      { "thai": "อาหารเช้า", "english": "breakfast" },
+      { "thai": "ผ้าเช็ดตัว", "english": "towel" },
+      { "thai": "สะอาด", "english": "clean" },
+      { "thai": "สกปรก", "english": "dirty" },
+      { "thai": "เงียบ", "english": "quiet" },
+      { "thai": "เสียงดัง", "english": "noisy" }
+    ]
+  },
+  {
+    "id": 18,
+    "theme_id": 8,
+    "theme": "Город и места",
+    "pairs": [
+      { "thai": "วัด", "english": "temple" },
+      { "thai": "ตลาด", "english": "market" },
+      { "thai": "โรงพยาบาล", "english": "hospital" },
+      { "thai": "คลินิก", "english": "clinic" },
+      { "thai": "ธนาคาร", "english": "bank" },
+      { "thai": "ตู้เอทีเอ็ม", "english": "ATM" },
+      { "thai": "สถานีตำรวจ", "english": "police station" },
+      { "thai": "ไปรษณีย์", "english": "post office" }
+    ]
+  },
+  {
+    "id": 19,
+    "theme_id": 8,
+    "theme": "Город и места",
+    "pairs": [
+      { "thai": "สวน", "english": "park" },
+      { "thai": "ยิม", "english": "gym" },
+      { "thai": "สถานี", "english": "station" },
+      { "thai": "ป้ายรถเมล์", "english": "bus stop" },
+      { "thai": "ทางเข้า", "english": "entrance" },
+      { "thai": "ทางออก", "english": "exit" },
+      { "thai": "ห้องน้ำ", "english": "restroom" },
+      { "thai": "ประชาสัมพันธ์", "english": "information desk" }
+    ]
+  },
+  {
+    "id": 20,
+    "theme_id": 9,
+    "theme": "Погода и природа",
+    "pairs": [
+      { "thai": "อากาศ", "english": "weather" },
+      { "thai": "ร้อน", "english": "hot" },
+      { "thai": "เย็น", "english": "cool" },
+      { "thai": "ชื้น", "english": "humid" },
+      { "thai": "แห้ง", "english": "dry" },
+      { "thai": "แดดออก", "english": "sunny" },
+      { "thai": "ครึ้ม", "english": "cloudy" },
+      { "thai": "ฝน", "english": "rain" }
+    ]
+  },
+  {
+    "id": 21,
+    "theme_id": 9,
+    "theme": "Погода и природа",
+    "pairs": [
+      { "thai": "ฝนตกหนัก", "english": "heavy rain" },
+      { "thai": "ลม", "english": "wind" },
+      { "thai": "พายุ", "english": "storm" },
+      { "thai": "น้ำท่วม", "english": "flood" },
+      { "thai": "ภูเขา", "english": "mountain" },
+      { "thai": "ป่า", "english": "forest" },
+      { "thai": "น้ำตก", "english": "waterfall" },
+      { "thai": "ทะเล", "english": "sea / ocean" }
+    ]
+  },
+  {
+    "id": 22,
+    "theme_id": 10,
+    "theme": "Праздники и культура",
+    "pairs": [
+      { "thai": "ประเพณี", "english": "tradition" },
+      { "thai": "วัฒนธรรม", "english": "culture" },
+      { "thai": "วัด", "english": "temple" },
+      { "thai": "พระ", "english": "monk" },
+      { "thai": "บุญ", "english": "merit" },
+      { "thai": "ทำบุญ", "english": "make merit" },
+      { "thai": "ของถวาย", "english": "offering" },
+      { "thai": "สวดมนต์", "english": "prayer" }
+    ]
+  },
+  {
+    "id": 23,
+    "theme_id": 10,
+    "theme": "Праздники и культура",
+    "pairs": [
+      { "thai": "พระพุทธรูป", "english": "Buddha image" },
+      { "thai": "วันพระ", "english": "holy day" },
+      { "thai": "เทศกาล", "english": "festival" },
+      { "thai": "ขบวนแห่", "english": "parade" },
+      { "thai": "พลุ", "english": "fireworks" },
+      { "thai": "สาดน้ำ", "english": "water splashing" },
+      { "thai": "โคม", "english": "lantern" },
+      { "thai": "กระทง", "english": "floating basket" }
+    ]
+  },
+  {
+    "id": 24,
+    "theme_id": 11,
+    "theme": "Работа и офис",
+    "pairs": [
+      { "thai": "งาน", "english": "work" },
+      { "thai": "ประชุม", "english": "meeting" },
+      { "thai": "ตาราง", "english": "schedule" },
+      { "thai": "แผน", "english": "plan" },
+      { "thai": "กำหนดส่ง", "english": "deadline" },
+      { "thai": "งานที่ได้รับ", "english": "task" },
+      { "thai": "รายงาน", "english": "report" },
+      { "thai": "เอกสาร", "english": "document" }
+    ]
+  },
+  {
+    "id": 25,
+    "theme_id": 11,
+    "theme": "Работа и офис",
+    "pairs": [
+      { "thai": "สัญญา", "english": "contract" },
+      { "thai": "อนุมัติ", "english": "approve" },
+      { "thai": "ผู้จัดการ", "english": "manager" },
+      { "thai": "ทีม", "english": "team" },
+      { "thai": "ปรึกษา", "english": "discuss" },
+      { "thai": "ตัดสินใจ", "english": "decide" },
+      { "thai": "ความคืบหน้า", "english": "progress" },
+      { "thai": "ปัญหา", "english": "problem" }
+    ]
+  },
+  {
+    "id": 26,
+    "theme_id": 12,
+    "theme": "Технологии и интернет",
+    "pairs": [
+      { "thai": "โทรศัพท์", "english": "phone" },
+      { "thai": "คอมพิวเตอร์", "english": "computer" },
+      { "thai": "อินเทอร์เน็ต", "english": "internet" },
+      { "thai": "เว็บไซต์", "english": "website" },
+      { "thai": "แอป", "english": "application / app" },
+      { "thai": "บัญชี", "english": "account" },
+      { "thai": "รหัสผ่าน", "english": "password" },
+      { "thai": "ชื่อผู้ใช้", "english": "username" }
+    ]
+  },
+  {
+    "id": 27,
+    "theme_id": 12,
+    "theme": "Технологии и интернет",
+    "pairs": [
+      { "thai": "ข้อความ", "english": "message" },
+      { "thai": "โทร", "english": "call (verb)" },
+      { "thai": "ชาร์จ", "english": "charge (battery)" },
+      { "thai": "แบตเตอรี่", "english": "battery" },
+      { "thai": "ดาวน์โหลด", "english": "download" },
+      { "thai": "อัปโหลด", "english": "upload" },
+      { "thai": "อัปเดต", "english": "update" },
+      { "thai": "การตั้งค่า", "english": "settings" }
+    ]
+  },
+  {
+    "id": 28,
+    "theme_id": 13,
+    "theme": "Спорт и активность",
+    "pairs": [
+      { "thai": "ออกกำลังกาย", "english": "exercise" },
+      { "thai": "การฝึก", "english": "workout / training" },
+      { "thai": "วอร์มอัพ", "english": "warm up" },
+      { "thai": "ยืดเหยียด", "english": "stretch" },
+      { "thai": "วิ่ง", "english": "run" },
+      { "thai": "เดิน", "english": "walk" },
+      { "thai": "ว่ายน้ำ", "english": "swim" },
+      { "thai": "ดัมเบล", "english": "dumbbell" }
+    ]
+  },
+  {
+    "id": 29,
+    "theme_id": 13,
+    "theme": "Спорт и активность",
+    "pairs": [
+      { "thai": "กล้ามเนื้อ", "english": "muscle" },
+      { "thai": "เหนื่อย", "english": "tired" },
+      { "thai": "เหงื่อ", "english": "sweat" },
+      { "thai": "ลมหายใจ", "english": "breath" },
+      { "thai": "ความเร็ว", "english": "pace / speed" },
+      { "thai": "บาดเจ็บ", "english": "injury" },
+      { "thai": "พัก", "english": "rest" },
+      { "thai": "สุขภาพดี", "english": "healthy" }
+    ]
+  },
+  {
+    "id": 30,
+    "theme_id": 14,
+    "theme": "Чувства и мнение",
+    "pairs": [
+      { "thai": "ดีใจ", "english": "happy" },
+      { "thai": "เศร้า", "english": "sad" },
+      { "thai": "โกรธ", "english": "angry" },
+      { "thai": "กลัว", "english": "afraid" },
+      { "thai": "ตกใจ", "english": "surprised" },
+      { "thai": "ตื่นเต้น", "english": "excited" },
+      { "thai": "เบื่อ", "english": "bored" },
+      { "thai": "เครียด", "english": "stressed" }
+    ]
+  },
+  {
+    "id": 31,
+    "theme_id": 14,
+    "theme": "Чувства и мнение",
+    "pairs": [
+      { "thai": "ภูมิใจ", "english": "proud" },
+      { "thai": "ผิดหวัง", "english": "disappointed" },
+      { "thai": "เห็นด้วย", "english": "agree" },
+      { "thai": "ไม่เห็นด้วย", "english": "disagree" },
+      { "thai": "ความคิดเห็น", "english": "opinion" },
+      { "thai": "เหตุผล", "english": "reason" },
+      { "thai": "ไว้ใจ", "english": "trust" },
+      { "thai": "สงสัย", "english": "doubt" }
+    ]
+  },
+  {
+    "id": 32,
+    "theme_id": 15,
+    "theme": "Проблемы и решения",
+    "pairs": [
+      { "thai": "พัง", "english": "broken" },
+      { "thai": "ใช้ไม่ได้", "english": "not working" },
+      { "thai": "เสียหาย", "english": "damage" },
+      { "thai": "ผิดพลาด", "english": "mistake" },
+      { "thai": "ร้องเรียน", "english": "complain" },
+      { "thai": "ขอ", "english": "request" },
+      { "thai": "เปลี่ยน", "english": "exchange (item)" },
+      { "thai": "คืน", "english": "return (item)" }
+    ]
+  },
+  {
+    "id": 33,
+    "theme_id": 15,
+    "theme": "Проблемы и решения",
+    "pairs": [
+      { "thai": "คืนเงิน", "english": "refund" },
+      { "thai": "ซ่อม", "english": "fix (repair)" },
+      { "thai": "แก้", "english": "solve" },
+      { "thai": "ยกเลิก", "english": "cancel" },
+      { "thai": "ล่าช้า", "english": "delay" },
+      { "thai": "ด่วน", "english": "urgent" },
+      { "thai": "ระวัง", "english": "careful" },
+      { "thai": "ปลอดภัย", "english": "safe" }
     ]
   }
 ]
-
-
