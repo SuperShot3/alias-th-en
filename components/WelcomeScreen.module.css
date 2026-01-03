@@ -13,10 +13,10 @@
 .content {
   width: 100%;
   max-width: 500px;
-  background: white;
+  background: #fefefe;
   border-radius: 20px;
   padding: 30px 20px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 40px rgba(255, 182, 193, 0.25);
 }
 
 .title {
@@ -24,8 +24,8 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 30px;
-  color: #667eea;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #d4a5c7;
+  background: linear-gradient(135deg, #d4a5c7 0%, #c8a2d4 50%, #b8a8ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -38,7 +38,7 @@
 .rules h2 {
   font-size: 20px;
   margin-bottom: 15px;
-  color: #333;
+  color: #5a5a5a;
 }
 
 .rules ul {
@@ -49,7 +49,7 @@
 .rules li {
   font-size: 16px;
   line-height: 1.8;
-  color: #666;
+  color: #6a6a6a;
   padding-left: 20px;
   position: relative;
 }
@@ -58,7 +58,7 @@
   content: '•';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #d4a5c7;
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@
   font-size: 18px;
   font-weight: 600;
   color: white;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #d4a5c7 0%, #c8a2d4 50%, #b8a8ff 100%);
   border: none;
   border-radius: 12px;
   cursor: pointer;
@@ -87,7 +87,7 @@
 }
 
 .button:hover {
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(212, 165, 199, 0.4);
 }
 
 .findForm {
@@ -99,25 +99,25 @@
 .label {
   font-size: 16px;
   font-weight: 600;
-  color: #333;
+  color: #5a5a5a;
 }
 
 .input {
   min-height: 44px;
   padding: 12px 16px;
   font-size: 18px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #e8d5e8;
   border-radius: 12px;
   outline: none;
   transition: border-color 0.2s;
 }
 
 .input:focus {
-  border-color: #667eea;
+  border-color: #d4a5c7;
 }
 
 .error {
-  color: #e74c3c;
+  color: #e88a9e;
   font-size: 14px;
   margin-top: -10px;
 }
@@ -132,9 +132,9 @@
   padding: 14px 24px;
   font-size: 18px;
   font-weight: 600;
-  color: #667eea;
+  color: #d4a5c7;
   background: white;
-  border: 2px solid #667eea;
+  border: 2px solid #d4a5c7;
   border-radius: 12px;
   cursor: pointer;
   transition: transform 0.2s;
@@ -149,4 +149,5 @@
 .button {
   flex: 1;
 }
+
 

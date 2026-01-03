@@ -35,7 +35,7 @@ export default function FlipCard({ card, isFlipped, onFlip }: FlipCardProps) {
         <div className={styles.cardFront}>
           <div className={styles.wordGrid}>
             {card.pairs.map((pair, index) => (
-              <div key={index} className={styles.wordItem}>
+              <div key={index} className={`${styles.wordItem} ${styles.wordItemThai}`}>
                 {pair.thai}
               </div>
             ))}
@@ -55,4 +55,5 @@ export default function FlipCard({ card, isFlipped, onFlip }: FlipCardProps) {
     </div>
   )
 }
+
 

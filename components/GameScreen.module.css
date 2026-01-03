@@ -33,7 +33,7 @@
   font-size: 18px;
   font-weight: 600;
   color: white;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #d4a5c7 0%, #c8a2d4 50%, #b8a8ff 100%);
   border: none;
   border-radius: 12px;
   cursor: pointer;
@@ -46,6 +46,7 @@
 }
 
 .button:hover {
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(212, 165, 199, 0.4);
 }
+
 

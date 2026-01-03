@@ -28,8 +28,8 @@
   height: 100%;
   backface-visibility: hidden;
   border-radius: 20px;
-  background: white;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  background: #fefefe;
+  box-shadow: 0 10px 40px rgba(255, 182, 193, 0.25);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -46,14 +46,14 @@
   align-items: center;
   margin-bottom: 20px;
   padding-bottom: 15px;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid #f5e6f3;
 }
 
 .cardId {
   font-size: 18px;
   font-weight: 700;
-  color: #667eea;
-  background: #f0f4ff;
+  color: #d4a5c7;
+  background: #f5e6f3;
   padding: 6px 12px;
   border-radius: 8px;
 }
@@ -61,8 +61,8 @@
 .languageLabel {
   font-size: 16px;
   font-weight: 600;
-  color: #764ba2;
-  background: #f8f4ff;
+  color: #c8a2d4;
+  background: #f5e6f3;
   padding: 6px 12px;
   border-radius: 8px;
 }
@@ -82,14 +82,20 @@
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
-  color: #333;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+  color: #5a5a5a;
+  background: linear-gradient(135deg, #fef5f9 0%, #f5e6f3 100%);
   border-radius: 12px;
   padding: 20px 10px;
   text-align: center;
   word-break: break-word;
   overflow-wrap: break-word;
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.wordItemThai {
+  font-family: 'Tahoma', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .wordItem:active {
@@ -100,6 +106,10 @@
   .wordItem {
     font-size: 20px;
     padding: 15px 8px;
+  }
+  
+  .wordItemThai {
+    font-size: 26px;
   }
   
   .cardId,
@@ -114,5 +124,10 @@
     font-size: 18px;
     padding: 12px 6px;
   }
+  
+  .wordItemThai {
+    font-size: 24px;
+  }
 }
+
 

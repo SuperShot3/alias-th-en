@@ -4,12 +4,16 @@ import { useState, useEffect } from 'react'
 import WelcomeScreen from '@/components/WelcomeScreen'
 import GameScreen from '@/components/GameScreen'
 import CardView from '@/components/CardView'
-import cardsData from '@/data/cards.json'
+import cardsDataRaw from '@/data/cards.json'
 
 export type Card = {
   id: number
+  theme_id: number
+  theme: string
   pairs: Array<{ thai: string; english: string }>
 }
+
+const cardsData = cardsDataRaw as Card[]
 
 type Screen = 'welcome' | 'find' | 'game'
 

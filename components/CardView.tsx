@@ -26,3 +26,4 @@ export default function CardView({ card, isFlipped, onFlip, onBack }: CardViewPr
   )
 }
 
+
